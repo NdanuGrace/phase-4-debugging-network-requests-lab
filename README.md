@@ -63,11 +63,17 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+Checked for the error on console and noticed a NameError
+Toy was written as Toys
+
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  The controller action update was not rendering json .I added a render json 
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  I added a destroy route in route.rb because there was an error that indicated that no route matched Delete
+   
